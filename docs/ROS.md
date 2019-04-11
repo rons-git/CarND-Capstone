@@ -156,8 +156,19 @@ rosbag play -l ../data/dbw_test.rosbag.bag
 roslaunch ros/src/twist_controller/launch/dbw_test.launch
 ```
 
-### run udacity project
+### run all nodes
 
 ```bash
 roslaunch launch/styx.launch
+```
+
+### upgrade test bag
+
+```bash
+[ERROR] [1555022619.664346554]: Client [/dbw_test] wants topic /actual/brake_cmd to have datatype/md5sum [dbw_mkz_msgs/BrakeCmd/899b0f3ef31bf0a48497d65b424a1975], but our version has [dbw_mkz_msgs/BrakeCmd/c0d20e1056976680942e85ab0959826c]. Dropping connection.
+```
+
+```bash
+rosdep update
+rosbag fix --force ../data/dbw_test.rosbag.bag ../data/dbw_test.rosbag.new.bag
 ```
