@@ -23,7 +23,7 @@ class Controller(object):
         tau = 0.5  # cutoff frequency: 1 / 2pi*tau
         ts = 0.02  # sample time
         self.vel_lpf = LowPassFilter(tau, ts)
-        self.vehicle_mass = vehicle_mass + GAS_DENSITY*fuel_capacity
+        self.vehicle_mass = vehicle_mass + GAS_DENSITY * fuel_capacity
         self.fuel_capacity = fuel_capacity
         self.brake_deadband = brake_deadband
         self.decel_limit = decel_limit

@@ -1,0 +1,10 @@
+Flask
+attrdict
+eventlet
+python-socketio
+numpy
+Pillow
+scipy
+keras
+tensorflow-gpu
+h5py

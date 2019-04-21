@@ -67,6 +67,7 @@ class DBWNode(object):
         self.dbw_enabled = None
         self.linear_vel = None
         self.angular_vel = None
+        print("hello world")
 
         self.loop()
 
