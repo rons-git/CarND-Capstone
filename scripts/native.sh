@@ -1,5 +1,4 @@
 cd ..
-cd ros/src
 source /capstone/ros/devel/setup.bash
 cd /capstone/ros
 echo "Building the environment"
