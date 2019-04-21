@@ -16,9 +16,9 @@ roscore &
 sleep 5
 echo "Launching the nodes"
 roslaunch /capstone/ros/launch/styx.launch &
-read -p
+read -p "Press enter to stop"
 sleep 5
 cd ..
 cd scripts
 rm d2utmp* 2> /dev/null
-read -p "Press enter to stop"
+read -p "Press enter to exit"
