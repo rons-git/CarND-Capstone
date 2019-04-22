@@ -1,8 +1,8 @@
 cd ..
 echo "Building the environment"
+cd /capstone/ros
 catkin_make
 #source /capstone/ros/devel/setup.bash
-#cd /capstone/ros
 #echo "Running roscore"
 #roscore &
 #sleep 5
