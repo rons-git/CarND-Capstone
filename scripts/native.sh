@@ -1,9 +1,10 @@
 set -x
 cd ..
 dir
-#echo "Building the environment"
-#cd /capstone/ros
-#catkin_make
+echo "Building the environment"
+cd ros
+catkin_make
+dir
 #source /capstone/ros/devel/setup.bash
 #echo "Running roscore"
 #roscore &
