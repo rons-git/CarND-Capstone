@@ -33,4 +33,4 @@ VOLUME ["/capstone"]
 VOLUME ["/root/.ros/log/"]
 WORKDIR /capstone/ros
 
-#CMD ["/capstone/scripts/docker.sh"]
+CMD ["/capstone/scripts/docker.sh"]
