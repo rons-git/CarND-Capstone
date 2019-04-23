@@ -1,4 +1,4 @@
-cscript dos2unix.vbs "d:\onedrive\rons-git\carnd-capstone\dockerfile"
+cscript dos2unix.vbs %cd%\dockerfile
 copy /y docker.sav docker.sh
 cscript dos2unix.vbs "docker.sh"
 cd ..
